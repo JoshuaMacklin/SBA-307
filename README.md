@@ -2,6 +2,11 @@
 
 Technologies Used: React, Vite, HTML, CSS, JS. 
 
+How to run locally:
+CD SBA
+npm install
+npm run dev
+
 This is a sample website using a plethora of technologies in order to appease these requirements
 
     HTML Requirements

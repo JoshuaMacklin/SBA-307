@@ -28,9 +28,14 @@
   }
 }
 
+@keyframes colorchange {
+  from {color: white;}
+  to {color: rgba(128, 128, 128, 0.696);}
+}
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+    animation:  infinite 20s linear;
   }
 }
 
@@ -44,6 +49,8 @@
 
 .block {
   width: 100vw;
+  animation-name: colorchange;
+  animation-duration: 4s;
 }
 
 .gears:hover {
