@@ -1,0 +1,52 @@
+li {
+    display: block;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.links {
+    width: 100vw;
+    position: absolute;
+    background-color: rgba(79, 79, 79, 0.334);
+    z-index: 2;
+}
+
+.linkBox {
+    width: 100vw;
+}
+
+.Hero {
+    /* background-image: url(./assets/mountains.jpg); */
+    height: 350px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+  }
+
+.heroImg {
+    background-image: url(./assets/mountains.jpg);
+    height: -webkit-fill-available;
+    width: 100vw;
+    /* z-index: 1; */
+    filter: blur(2px) brightness(50%);
+    background-size: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.heroCont {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  font-weight: 100;
+}
