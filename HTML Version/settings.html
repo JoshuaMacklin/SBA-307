@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="./src/Header.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/App.css">
+  </head>
+  <body>
+    <div id="root">
+      <div class="links">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <a href="./settings.html">Settings</a>
+            </li>
+        </ul>
+      </div>
+      <div class='linkBox'></div>
+      <h1 style="margin-top: 72px">Settings Page</h1>
+      <form class='wideForm' action="">
+        <h2>Change User Information</h2>
+        <div>
+            <div>
+                <label for="username">Username</label>
+            </div>
+            <div>
+                <input type="text" name="username" id="username"/>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="password">Password</label>
+            </div>
+            <div>
+                <input type="password" name="password" id="password"/>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="dob">Date of Birth</label>
+            </div>
+            <div>
+                <input type="date" name="dob" id="dob"/>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="gender">Gender</label>
+            </div>
+            <div>
+                <select name="gender" id="gender">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="NB">Non Binary</option>
+                    <option value="NL">Not Listed</option>
+                    <option value="NA">Do Not Wish to Disclose</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" name="submit" id="submit" value="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
