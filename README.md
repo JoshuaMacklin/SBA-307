@@ -5,7 +5,12 @@ This is a sample website using a plethora of technologies in order to appease th
 Technologies Used: React, Vite, HTML, CSS, JS. 
 
 Run locally using these commands:
+
+React Version:
 - npm install && npm run dev
+
+HTML Version: 
+- open index.html in your browser
 
 <img width="989" alt="Screen Shot 2024-09-09 at 4 03 48 PM" src="https://github.com/user-attachments/assets/d396e56b-3caf-4562-92f3-383bce7ee2bf">
 <img width="987" alt="Screen Shot 2024-09-09 at 4 04 05 PM" src="https://github.com/user-attachments/assets/695e458d-a6d0-45f9-bcbd-c4a62776d73c">
